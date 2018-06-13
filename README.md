@@ -34,11 +34,13 @@ located in this directory. The `<style>` tag will link to our file with an
 `href` attribute, like so:
 
 ```HTML
-<link rel="stylesheet" href="relative path to CSS file">
+<link rel="stylesheet" href="file_name.css">
 ```
 
-Links to stylesheets should go at the end of the `<head>` section! Make sure you
-provide a _relative_ path to the stylesheet.
+Links to stylesheets should go at the end of the `<head>` section! If you would
+like to access a sub-directory under the location of your `index.html` file
+specify it like `css/other_file_name.css`.
+
 Hint: Open `index.html` in the browser. You can test whether your link is working or not by the color of your headline. If it's red, it's working! If it's black, keep going - you'll get it.
 
 ## Implement CSS Declarations
